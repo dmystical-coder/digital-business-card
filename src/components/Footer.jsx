@@ -4,10 +4,10 @@ import Twitter from '../assets/twitter.svg'
 const Footer = () => {
     return (
         <footer>
-            <a href="javascript:void(0)">
+            <a href="https://github.com/dmystical-coder" target='_blank'>
                 <img src={Github} alt="github icon" />
             </a>
-            <a href="javascript:void(0)">
+            <a href="https://twitter.com/dmystical_coder" target='_blank'>
                 <img src={Twitter} alt="twitter icon" />
             </a>
         </footer>
