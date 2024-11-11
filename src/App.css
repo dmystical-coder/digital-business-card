@@ -1,0 +1,131 @@
+* > * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background: #23252c;
+  display: grid;
+  place-content: center;
+  padding-block: 2.75rem;
+}
+
+.card {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  max-width: 19.8125rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 19.8125rem;
+}
+
+.header--image {
+  width: 100%;
+  border-radius: 0.625rem 0.625rem 0rem 0rem;
+}
+
+main {
+  padding-block: 1.5rem;
+  background: #1a1b21;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  text-align: center;
+}
+
+.info--name {
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+.info--title {
+  color: #f3bf99;
+  font-family: Inter, sans-serif;
+  font-size: 0.8rem;
+}
+
+.info--url {
+  color: #f5f5f5;
+  font-family: Inter, sans-serif;
+  font-size: 0.64rem;
+  line-height: 150%; /* 0.96rem */
+}
+
+.info--btn-group {
+  display: flex;
+  gap: 1.06rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.info--btn-group_btn {
+  text-decoration: none;
+  border-radius: 0.375rem;
+  background: #5093e2;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  padding: 0.5rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info--btn-group_btn:first-of-type {
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--white, #fff);
+}
+
+.btn--text {
+  color: #374151;
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem; /* 114.286% */
+}
+
+.linkedin {
+  color: #ffffff;
+}
+
+.about,
+.interests {
+  margin: 2rem 2rem 1.5rem;
+}
+
+.about--title,
+.interests--title {
+  color: #f5f5f5;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 150%; /* 1.5rem */
+}
+
+.about--para,
+.interests--para {
+  margin-top: 0.3rem;
+  color: #dcdcdc;
+  font-family: Inter, sans-serif;
+  font-size: 0.64rem;
+  line-height: 150%; /* 0.96rem */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  background: #161619;
+  padding-block: 1.25rem;
+}
